@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: selenium-node-firefox
   annotations:
-    description: "Selenium Node with Google firefox browser"
+    description: "Selenium Node with Firefox browser"
     iconClass: "icon-selenium"
     tags: "selenium,node,firefox"
 objects:
@@ -19,7 +19,7 @@ objects:
       contextDir: selenium-node-firefox
       type: Git
       git:
-        uri: https://github.com/ddavison/selenium-openshift-templates
+        uri: https://github.com/genomicsengland/selenium-openshift-templates
         ref: master
     strategy:
       type: Docker
