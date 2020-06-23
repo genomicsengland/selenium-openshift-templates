@@ -40,6 +40,8 @@ objects:
   kind: DeploymentConfig
   metadata:
     name: selenium-node-chrome
+    labels:
+      app: selenium
   spec:
     strategy:
       type: Recreate

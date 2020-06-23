@@ -111,3 +111,4 @@ parameters:
     value: "500"
 labels:
   selenium-hub: master
+  app: selenium
